@@ -1,0 +1,58 @@
+/* 1. Introduction */
+.intro{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 107px;
+    padding-bottom: 104px;
+    color: white;
+}
+
+.intro .intro_ava .intro_ava_image{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.intro_title{
+    font-size: 40pt;
+    padding-top: 20px;
+}
+
+.intro_icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.intro_icon .intro_icon_line_left{
+    background-color: white;
+    height: 2px;
+    width: 90px;
+    border-radius: 35%;
+}
+
+.intro_icon .intro_icon_star{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.intro_icon .intro_icon_line_right{
+    background-color: white;
+    height: 2px;
+    width: 90px;
+    border-radius: 35%;
+}
+
+.intro .intro_slogan{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* 2.About */
