@@ -1,4 +1,11 @@
 /* Settings */
+:root {
+    --purple: #2c3e50;
+    --white: #ffffff;
+    --bg-green: #1abc9c;
+    --font-lato: 'Lato', sans-serif;
+    --dark: #212529;
+}
 .bg_green {
     background-color: green;
 }
@@ -65,7 +72,7 @@
     padding-right: 10px;
 }
 
-.column_center {
+.lc_center {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -73,7 +80,7 @@
     text-align: center;
 }
 
-.center {
+.l_center {
     display: flex;
     justify-content: center;
     align-items: center;

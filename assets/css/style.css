@@ -21,7 +21,7 @@
 }
 
 .portfolio .portfolio_content .portfolio_content_box .portfolio_cover {
-    background-color: aquamarine;
+    background-color: var(--bg-green);
     top: 0;
     left: 0;
     opacity: 0;
@@ -29,7 +29,7 @@
 }
 
 .portfolio .portfolio_content .portfolio_content_box:hover .portfolio_cover {
-    background-color: aquamarine;
+    background-color: var(--bg-green);
     top: 0;
     left: 0;
     opacity: 90%;
@@ -51,7 +51,7 @@
 .about .about_download .about_download_button {
     height: 65px;
     width: 232px;
-    background-color: green;
+    background-color: var(--bg-green);
     border: 1px white solid;
     border-radius: 5px;
     font-size: 15pt;
