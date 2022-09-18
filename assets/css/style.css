@@ -1,9 +1,4 @@
 /* 1. Introduction */
-.intro {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .intro .intro_ava .intro_ava_image {
     width: 220px;
     height: 220px;
@@ -15,11 +10,6 @@
 }
 
 /* 2. Portfolio */
-.portfolio {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .portfolio .portfolio_content .portfolio_content_box {
     position: relative;
 }
@@ -49,12 +39,6 @@
 
 
 /* 3.About */
-.about {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-
 .about .about_content {
     display: flex;
     justify-content: center;
@@ -79,85 +63,4 @@
     background-color: white;
     color: black;
     cursor: grab;
-}
-
-/* Settings */
-.bg_green {
-    background-color: green;
-}
-
-.color_white {
-    color: white;
-}
-
-.color_black {
-    color: black;
-}
-
-.font_size_36 {
-    font-size: 36px;
-}
-
-.font_size_40 {
-    font-size: 40px;
-}
-
-.pt_20 {
-    padding-top: 20px;
-}
-
-.pl_20 {
-    padding-left: 20px;
-}
-
-.pr_20 {
-    padding-right: 20px;
-}
-
-.pl_50 {
-    padding-left: 50px;
-}
-
-.pr_50 {
-    padding-right: 50px;
-}
-
-.mgt_20 {
-    margin-top: 20px;
-}
-
-.icon {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.icon .icon_line {
-    border: 1px solid;
-    width: 100px;
-    border-radius: 15%;
-}
-
-.icon .icon_star {
-    font-size: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.column_center {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
