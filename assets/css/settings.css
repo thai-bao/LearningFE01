@@ -7,7 +7,7 @@
     --dark: #212529;
 }
 .bg_green {
-    background-color: green;
+    background-color: var(--bg-green);
 }
 
 .color_white {
